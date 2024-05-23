@@ -19,20 +19,22 @@ This project showcases how to create a scalable and maintainable FastAPI applica
 
 ## Project Structure
 
+fastapi-crud-mongodb/
 ├── app/
-│ ├── init.py
-│ ├── main.py
-│ ├── models/
-│ │ ├── init.py
-│ │ └── item.py
-│ ├── services/
-│ │ ├── init.py
-│ │ ├── item_service.py
-│ │ ├── mongodb_item_service.py
-│ │ └── item_factory.py
-│ └── database.py
+│   ├── __init__.py
+│   ├── main.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   └── item.py
+│   ├── services/
+│   │   ├── __init__.py
+│   │   ├── item_service.py
+│   │   └── mongodb_item_service.py
+│   │   └── item_factory.py
+│   └── database.py
 ├── .env
 └── requirements.txt
+
 
 
 ## Features
